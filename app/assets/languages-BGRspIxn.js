@@ -1,0 +1,1 @@
+var e=[{id:`en`,name:`English`},{id:`ru`,name:`Русский`}];function t(t){return e.find(e=>e.id===t)?.id??`en`}export{t as n,e as t};

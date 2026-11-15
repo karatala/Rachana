@@ -1,0 +1,1 @@
+import{t as e}from"./catalogs-CFHo2LXG.js";function t(n,r,i={}){let a=typeof r==`string`?r:r.key,o=typeof r==`string`?i:r.values,s=e(n);return(Object.hasOwn(s,a)?s[a]:a).replace(/\{(\w+)\}/g,(e,r)=>{let i=o[r];return i===void 0?e:typeof i==`object`&&i?t(n,i):String(i??``)})}export{t};

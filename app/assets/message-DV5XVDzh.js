@@ -1,0 +1,1 @@
+function e(e,t={}){return{key:e,values:t}}var t=class extends Error{detail;constructor(e){super(typeof e==`string`?e:e.key),this.detail=e,this.name=`MessageError`}};function n(e){return e instanceof t?e.detail:e.message}export{n,e as r,t};
